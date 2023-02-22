@@ -102,4 +102,6 @@ theme: oasis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: git@github.com:libaice/libaice.github.io.git
+  branch: master
